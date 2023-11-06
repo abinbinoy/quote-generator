@@ -1,0 +1,29 @@
+.body {
+  background-image: linear-gradient(to right, #312287, #5828ad);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+  gap: 20px;
+}
+.box-body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 50%;
+  margin-top: 50px;
+  background-color: #d05252;
+  color: #ffffff;
+  min-height: 200px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.center-loader {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

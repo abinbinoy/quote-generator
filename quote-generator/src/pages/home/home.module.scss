@@ -1,0 +1,39 @@
+.body {
+  background-image: linear-gradient(to right, #312287, #5828ad);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box-body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 50%;
+  margin-top: 50px;
+  background-color: #d05252;
+  color: #ffffff;
+  min-height: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+.dropdown {
+  width: 180px;
+  height: 30px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+.button-name {
+  height: 30px;
+  width: 180px;
+  border-radius: 40px;
+  background-color: #009c51;
+  border: none;
+}
+.bookmark {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
